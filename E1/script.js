@@ -27,7 +27,7 @@ function obtenerImpares(arrayDePizzas){
     let pizzasImpares = [];
 
     for(let i = 0; i <= (arrayDePizzas.length - 1); i++){
-        if(menu[i].id % 2 == 0){
+        if(menu[i].id % 2 != 0){
             pizzasImpares.push(menu[i].nombre); 
         }
     }
